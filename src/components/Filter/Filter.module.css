@@ -18,5 +18,5 @@
 }
 
 .Input:focus {
-  outline-color: rgba(179, 32, 32, 0.486);
+  outline-color: rgb(255, 0, 0);
 }

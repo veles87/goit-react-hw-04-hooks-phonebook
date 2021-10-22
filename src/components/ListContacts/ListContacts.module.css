@@ -20,23 +20,22 @@
 }
 
 .Span {
-  color: rgba(0, 0, 0, 0.6);
+  color: rgb(0, 0, 0);
   font-style: italic;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 27px;
 }
 
 .Button {
-  width: 80px;
-  height: 30px;
+font-size: 24px;
   cursor: pointer;
   background-color: transparent;
   border: none;
-  color: rgb(112, 112, 112);
+  color: rgb(3, 3, 3);
   outline: none;
 }
 .Button:hover {
   border-bottom: 2px solid rgb(255, 0, 0);
-  color: rgb(255, 0, 0);
+  color: hsl(0, 0%, 100%);
   transform: scale(1.1);
 }
