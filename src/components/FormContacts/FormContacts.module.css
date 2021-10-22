@@ -1,0 +1,47 @@
+.Form {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.Label {
+  display: block;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.Input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  padding: 10px;
+  width: 350px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 32px;
+}
+
+.Input:focus {
+  outline-color: rgb(25, 0, 255);
+  background-color: #fff;
+}
+
+button {
+  margin: 5px 10px;
+  background-color: #0834f5;
+  color: white;
+  border-radius: 7px;
+  border-color: #0a0131ab;
+  padding: 10px;
+}
+
+
+button:hover {
+  color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(107, 2, 243, 0.849);
+  box-shadow: 0px 1px 1px rgba(248, 2, 146, 0.63), 0px 4px 4px rgba(228, 61, 200, 0.808), 1px 4px 6px rgb(234, 120, 245);
+  opacity: 1;
+}
