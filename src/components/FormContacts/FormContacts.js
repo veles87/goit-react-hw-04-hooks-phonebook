@@ -36,30 +36,36 @@ function ContactForm({ onSubmit }) {
     <form className={styles.Form} onSubmit={handleSubmit}>
       <label className={styles.Label}>
         Name
+   
         <input
-          className={styles.Input}
           type="text"
+          className={styles.Input}
           name="name"
           pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
-          title="Имя может состоять только из букв, апострофа, тире и пробелов. Например Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan и т. п."
-          required
           value={name}
           onChange={handleChange}
-          placeholder="Ivan Ivanov"
+          title="Имя может состоять только из букв, апострофа, тире и пробелов. Например Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan и т. п."
+          placeholder="Enter your name"
+          autoComplete="off"
+          required
         />
       </label>
       <label className={styles.Label}>
         Number
-        <input
-          className={styles.Input}
+   
+          <input
           type="tel"
+          className={styles.Input}
           name="number"
           pattern="\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}"
-          title="Номер телефона должен состоять цифр и может содержать пробелы, тире, круглые скобки и может начинаться с +"
-          required
-          onChange={handleChange}
+
           value={number}
-          placeholder="111-11-11"
+          onChange={handleChange}
+          title="Номер телефона должен состоять цифр и может содержать пробелы, тире, круглые скобки и может начинаться с +"
+          placeholder="+38(___)___-__-__"
+          autoComplete="on"
+          required
+          
         />
       </label>
       <button className={styles.Button} type="submit">
