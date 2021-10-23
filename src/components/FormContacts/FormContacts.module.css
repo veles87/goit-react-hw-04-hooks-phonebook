@@ -32,7 +32,7 @@
 button {
   margin: 5px 10px;
   background-color: #0834f5;
-  color: white;
+  color: rgb(255, 255, 255);
   border-radius: 7px;
   border-color: #0a0131ab;
   padding: 10px;
@@ -40,7 +40,7 @@ button {
 
 
 button:hover {
-  color: rgba(255, 255, 255, 0.9);
+  color: rgb(248, 249, 250);
   background-color: rgba(107, 2, 243, 0.849);
   box-shadow: 0px 1px 1px rgba(248, 2, 146, 0.63), 0px 4px 4px rgba(228, 61, 200, 0.808), 1px 4px 6px rgb(234, 120, 245);
   opacity: 1;
