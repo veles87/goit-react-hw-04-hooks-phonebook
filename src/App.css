@@ -106,12 +106,15 @@ h4{
   margin-bottom: 10px;
 }
 body {
+  width: 2048px;
+
   margin: 90px;
   font-family: 'Roboto', sans-serif;
   line-height: 1.5;
   color: var(--primaryTextColor);
   padding-top: 30px;
   padding-bottom: 30px;
+  background-image: url(https://cdn.mos.cms.futurecdn.net/PSCude2bFicWjuUShZXmsH.jpg);
   
 }
 p{
