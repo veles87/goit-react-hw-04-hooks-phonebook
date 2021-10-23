@@ -45,7 +45,7 @@ function ContactForm({ onSubmit }) {
           value={name}
           onChange={handleChange}
           title="Имя может состоять только из букв, апострофа, тире и пробелов. Например Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan и т. п."
-          placeholder="Enter your name"
+          placeholder="Add name"
           autoComplete="off"
           required
         />
@@ -57,12 +57,12 @@ function ContactForm({ onSubmit }) {
           type="tel"
           className={styles.Input}
           name="number"
-          pattern="\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}"
+          pattern="(\+?( |-|\.)?\d{1,2}( |-|\.)?)?(\(?\d{3}\)?|\d{3})( |-|\.)?(\d{3}( |-|\.)?\d{4})"
 
           value={number}
           onChange={handleChange}
           title="Номер телефона должен состоять цифр и может содержать пробелы, тире, круглые скобки и может начинаться с +"
-          placeholder="+38(___)___-__-__"
+          placeholder="Add phone number"
           autoComplete="on"
           required
           
