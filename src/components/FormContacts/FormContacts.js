@@ -35,7 +35,7 @@ function ContactForm({ onSubmit }) {
   return (
     <form className={styles.Form} onSubmit={handleSubmit}>
       <label className={styles.Label}>
-        Name:
+        Name
         <input
           className={styles.Input}
           type="text"
@@ -45,11 +45,11 @@ function ContactForm({ onSubmit }) {
           required
           value={name}
           onChange={handleChange}
-          placeholder="Add Name  :"
+          placeholder="Ivan Ivanov"
         />
       </label>
       <label className={styles.Label}>
-        Number:
+        Number
         <input
           className={styles.Input}
           type="tel"
@@ -59,7 +59,7 @@ function ContactForm({ onSubmit }) {
           required
           onChange={handleChange}
           value={number}
-          placeholder="Add Phone  :"
+          placeholder="111-11-11"
         />
       </label>
       <button className={styles.Button} type="submit">
